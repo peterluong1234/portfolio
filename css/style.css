@@ -1,3 +1,23 @@
 body {
     position: relative;
   }
+
+:root {
+  --container-width-lg: 95%;
+  --container-width-md: 95%;
+  --container-width-ms: 95%;
+}
+
+#section {
+  /* width: var(--container-width-lg) */
+  margin: 0 5px 0 5px;
+  border-radius: 5px;
+}
+
+#project {
+  filter: drop-shadow(3px 3px 4px gray)
+}
+
+.card {
+  border: 0;
+}
