@@ -87,3 +87,7 @@ body {
 .card-body > table {
   text-align: center;
 }
+
+#name-logo {
+  word-spacing: -0.05em;
+}
