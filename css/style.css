@@ -24,7 +24,7 @@ body {
   right: 100px;
 }
 
- #hero1{
+ #hero1 {
   /* width: var(--container-width-lg) */
   /* display: flex; */
   /* position: relative; */
@@ -90,4 +90,8 @@ body {
 
 #name-logo {
   word-spacing: -0.05em;
+}
+
+button {
+  min-width: fit-content;
 }
