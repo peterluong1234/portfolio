@@ -11,8 +11,9 @@
     <title>Peter Luong | Software Developer</title>
 </head>
 <body >
-
+  <h1>Peter Luong</h1>
   <nav class="navbar fixed-top navbar-light">
+
     <div class="container-fluid justify-content-end">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,14 +41,14 @@
 
   <div id="hero2">
     <div>
-    <h4>PETER LUONG</h4>
+    <!-- <h4>PETER LUONG</h4> -->
 </div>
   </div>
 
 
 <div id="hero1" class="p-5 mb-4 bg-light">
-  <div class="container-fluid py-5">
-    <h1 class="display-5 fw-bold">PETER LUONG</h1>
+  <div class="container-fluid py-4">
+    <!-- <h1 class="display-5 fw-bold">PETER LUONG</h1> -->
     <p class="fs-3">A graphic designer turned software engineer with a passion for the outdoors.</p>
     <div class="container">
     <div class="row d-flex justify-content-center">
@@ -78,7 +79,10 @@
     <div class="card-body">
       <h5 class="card-title">Graphic Designer</h5>
       <ul>
-        <li>hello</li>
+        <li>Project manager for each design season, delegating project to-dos to multiple team members</li>
+        <li>Designed banners, print for magazine, shot product photography and various graphics for website, targeted-ads, and social media </li>
+        <li>Added Instagram Stories into workflow, drawing hundreds of thousands of clicks to website</li>
+        <li>Implemented use of a blogger/influencer reel to draw in additional traffic from big influencers</li>
       </ul>
       <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
     </div>
@@ -92,11 +96,40 @@
     </div> -->
     <div class="card-body">
       <h5 class="card-title">Developer</h5>
-      <ul>
-        <li>
-
-        </li>
-      </ul>
+      <table class="table table-striped table-borderless">
+        <thead>
+          <tr>
+            <th>Languages</th>
+            <th>Frameworks/Libraries</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>C++</td>
+            <td>MongoDB</td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Express</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>React</td>
+          </tr>
+          <tr>
+            <td>Javascript</td>
+            <td>Node.JS</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Django</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Bootstrap</td>
+          </tr>
+        </tbody>
+      </table>
       <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
     </div>
   </div>
@@ -106,20 +139,36 @@
 <h1 class="d-flex justify-content-center">Projects</h1>
 <div class="container" id="Projects">
   <div class="container">
-    <div class="row justify-content-center">
-      <div id="project" class="card p-5 m-2" style="width: 30rem">
+    <!-- <div class="row justify-content-center"> -->
+      <div class="card-group lg">
+      <div id="project" class="card p-3 m-2">
         <img src="https://i.imgur.com/Ct896mF.png" class="card-img-top">
         <h5 class="card-title"><a href="https://peterluong1234.github.io/connect-4/">CONNECT 4</a></h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <ul>
+          <li>Connect 4 is a 2-player grid based game played with markers that are dropped into slots. The objective of the game is to be the first to ‘connect’  4 markers in a row—horizontally, vertically or diagonally.</li>
+          <li>Created using  HTML5, CSS3 and Javascript </li>
+        </ul>
       </div>
 
-      <div id="project" class="card p-5 m-2" style="width: 30rem">
+      <div id="project" class="card p-3 m-2">
         <img src="https://user-images.githubusercontent.com/95894562/165019144-96e0d18a-7891-4c5f-a6c3-fb891d5adec2.png" class="card-img-top">
         <h5 class="card-title"><a href="https://nba-stats-tracker.herokuapp.com/">NBA STATS TRACKER</a></h5>
-        <p class="card-text">Graphic Designer turned Photographer turned Programmer.</p>
-        
+        <ul>
+          <li>Used MongoDB, Node.js, and Express to create a functional CRUD app to create a NBA stat website that allows users to create a list of their favorite teams and players</li>
+          <li>Utilized multiple NBA APIs to pull in data for statistics and player profiles</li>
+        </ul>
+      </div>
+      <div id="project" class="card p-3 m-2">
+        <img src="https://i.imgur.com/OKAyWUP.png" class="card-img-top">
+        <h5 class="card-title"><a href="https://nba-stats-tracker.herokuapp.com/">COSMOS</a></h5>
+        <ul>
+          <li>Utilized Django and Python to create a social network based on astronomical event showings</li>
+          <li>Includes user functionality along with ability for users to create profiles, their own astronomical ‘events’ as well as ‘viewing parties’ related to ‘events’</li>
+
+        </ul>
       </div>
     </div>
+    <!-- </div> -->
   </div>
 </div>
 
@@ -130,12 +179,15 @@
     <h1 class="d-flex justify-content-center">Contact</h1>
       </div>   
       <div class="row">
-      <div class="col-6">
+      <div class="col-8">
         Email: peterluong1123@gmail.com
       </div>
-        <div class="col">
-        <a class="btn btn-dark" href="https://github.com/peterluong1234/">Github</a></div>
-        <div class="col"><a class="btn btn-dark" href="https://www.linkedin.com/in/peter-luong-677530a9/" target="_blank">LinkedIn</a></div>
+        <div class="col-2">
+          <a class="btn btn-dark" href="https://github.com/peterluong1234/">Github</a>
+        </div>
+        <div class="col-2">
+          <a class="btn btn-dark" href="https://www.linkedin.com/in/peter-luong-677530a9/" target="_blank">LinkedIn</a>
+        </div>
     </div>
   </div>
 </div>

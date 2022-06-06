@@ -10,7 +10,7 @@ body {
 
 #hero2 {
   background-image: url("https://i.imgur.com/nQEoxBS.jpg");
-  height: 50vh;
+  height: 40vh;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -74,10 +74,16 @@ body {
   filter: drop-shadow(3px 3px 4px gray)
 }
 
-.card {
+.card > ul > li {
   border: 0;
+  text-align: left;
+  letter-spacing: 0em;
 }
 
 .card-body {
   text-align: left;
+}
+
+.card-body > table {
+  text-align: center;
 }
