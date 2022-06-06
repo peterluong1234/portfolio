@@ -8,12 +8,68 @@ body {
   --container-width-ms: 95%;
 }
 
-#section {
-  /* width: var(--container-width-lg) */
-  margin: 0 5px 0 5px;
+#hero2 {
+  background-image: url("https://i.imgur.com/nQEoxBS.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
   border-radius: 5px;
 }
 
+#hero2 > h4 {
+  text-align: right;
+  position: relative;
+  top: 100px;
+  right: 100px;
+}
+
+ #hero1{
+  /* width: var(--container-width-lg) */
+  /* display: flex; */
+  /* position: relative; */
+  background-color: white;
+  margin: 0 5px 0 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  letter-spacing: 0.1em;
+}
+
+#hero{
+  /* width: var(--container-width-lg) */
+  /* display: flex; */
+  position: relative;
+  background-color: white;
+  margin: 0 5px 0 5px;
+  border-radius: 5px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: black;
+  /* text-shadow: 1px 1px 2px gray; */
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("https://i.imgur.com/0JecAYY.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 30%;
+}
+
+/* 
+#hero h1 {
+  color: white;
+} */
+ h1, p,button {
+  position: relative;
+}
 #project {
   filter: drop-shadow(3px 3px 4px gray)
 }
