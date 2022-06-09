@@ -14,19 +14,16 @@ body {
 
 #hero2 {
   background-image: url("https://i.imgur.com/nQEoxBS.jpg");
-  height: 40vh;
+  background-blend-mode: multiply;
+  background-color: #adadad;
+  height: 60vh;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   border-radius: 5px;
+  color: white;
 }
 
-#hero2 > div > h4 {
-  text-align: right;
-  position: relative;
-  top: 100px;
-  right: 100px;
-}
 
  #hero1 {
   /* width: var(--container-width-lg) */
@@ -71,6 +68,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 30%;
+  min-width: 500px;
 }
 
 /* 
