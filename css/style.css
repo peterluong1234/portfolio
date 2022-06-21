@@ -20,7 +20,8 @@ body {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  border-radius: 5px;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
   color: white;
 }
 
@@ -78,10 +79,12 @@ body {
  h1, p,button {
   position: relative;
 }
+/* #project {
+  filter: drop-shadow(2px 2px 2px gray)
+} */
 #project {
-  filter: drop-shadow(3px 3px 4px gray)
+  border-radius: 10px;
 }
-
 .card > ul > li {
   border: 0;
   text-align: left;
@@ -96,6 +99,30 @@ body {
   text-align: center;
 }
 
+.card {
+  border: 0px;
+}
+
+.card-title {
+  padding-top: 10px;
+  font-weight: 800;
+  letter-spacing: .125em;
+}
+
+.project-body {
+  padding: 10px;
+}
+
+.card-img-top {
+  max-height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: overline;
+}
 
 button {
   min-width: fit-content;
